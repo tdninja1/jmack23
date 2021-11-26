@@ -10,9 +10,19 @@ $(document).ready(function(){
                 // html += item.description; //displays photo, and descriptive text for the photo
                 // html += item.media.m; //photo url
 
-                html += "<img src=" + item.media.m + ">"; //holds collection of urls for all photos
+                //holds collection of urls for all photos
+                html += "<a href=" + 
+                item.media.m
+                +
+                " data-lightbox='flickR' data-title=" + 
+                item.title + 
+                ">"
+                + 
+                "<img src=" + item.media.m + ">" 
+                +
+                "</a>";
                
-
+                //" data-lightbox='flickR' data-title='FlickrImages'>"
                 //Remove first paragraph of the description
                 // html = html.replace
                 // (//start html.replace
