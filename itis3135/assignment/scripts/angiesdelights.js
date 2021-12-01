@@ -4,7 +4,7 @@
 2.) Image Slideshow
 3.) Random Item Picker from 10 listed items
 */
-//Image Slideshow works with bxSlider plugin
+//Image Slideshow works with bxSlider plugin - JQUERY PLUGIN
 $(document).ready(function(){
     $('.slider').bxSlider( {
         preloadImages :         'all', //preload images
@@ -18,7 +18,14 @@ $(document).ready(function(){
         slideWidth :            250
 
     });
+
+
   });
+
+//COPY TO CLIPBOARD JQUERY PLUGIN
+$(".contact").copy();
+
+
 
 //declare randomProduct array
 function randomProduct() 
@@ -50,3 +57,4 @@ function preloader() {
         imageObj.src=images[i];
     }
 }
+

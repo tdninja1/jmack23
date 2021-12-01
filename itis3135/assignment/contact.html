@@ -4,7 +4,12 @@
     	<meta charset="UTF-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<title>Angie's Delights Contact</title>
-    	<link href="styles/angiesdelights.css" rel="stylesheet" type="text/css">
+    	<link rel="stylesheet" href="styles/jquery-ui.min.css">
+		<link href="styles/angiesdelights.css" rel="stylesheet" type="text/css">
+
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="scripts/jquery.copy-to-clipboard.js"></script>
+		<script src="scripts/angiesdelightscontact.js"></script>
 </head>
 <body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed>
 	<header>
@@ -24,11 +29,19 @@
 	</nav>
 	<main>
 		
-
+		
 
 		<h2>Contact Angie Here:</h2>
-		<p>Follow us on Instagram: @adelights28</p>
-		<p>Angie's Email: adelights@adelights.com</p>
+		
+		<!-- Copy To Clipboard JQUERY Plugin -->
+		<button class="btn btn-primary" data-clipboard-target=".demo">Copy Contact Information to Clipboard</button>
+
+		<div class="demo">
+			Follow us on Instagram: @adelights28
+			Angie's Email: adelights@adelights.com
+		</div>
+
+		
 		
 	</main>
 	<footer>
