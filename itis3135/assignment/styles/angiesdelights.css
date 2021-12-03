@@ -152,7 +152,7 @@ header, footer
 	font-weight: bold;
 }
 
-h1, h2, h3, h4
+h1, h2, h3
 {
 	color: #850b78;
 	font-family: Cambria, Cochin, Georgia, serif, "Futura";
@@ -164,6 +164,12 @@ h3
 {
 	font-size: 200%;
 	line-height: 0px;
+}
+
+h4 {
+	color: #850b78;
+	font-family: Cambria;
+	text-align: center;
 }
 
 table {
