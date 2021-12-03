@@ -31,7 +31,7 @@ purple: #d0c1d6
 	margin-left: 10px;
 	margin-right: 10px;
 	text-align: center;
-	color: #850b78;
+	
 
 }
 
@@ -191,7 +191,7 @@ tr:nth-child(odd) {
 a
 {
 	text-decoration: none;
-	color: #f71735;
+	color: #850b78;
 }
 
 a:hover
