@@ -22,11 +22,6 @@ $(document).ready(function(){
 
   });
 
-//COPY TO CLIPBOARD JQUERY PLUGIN
-$(".contact").copy();
-
-
-
 //declare randomProduct array
 function randomProduct() 
 {

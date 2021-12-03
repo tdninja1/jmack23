@@ -8,6 +8,52 @@ purple: #d0c1d6
 
 */
 
+.logo
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+			
+}
+
+[data-include]
+{
+	min-height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+
+.myHeader, .myFooter
+{
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+
+}
+
+.myNav
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btnReferHTML, .btnReferCSS
+{
+	border: 2px solid black;
+	text-align: center;
+	padding: 10px 20px;
+	background-color: purple;
+	color: cyan;
+	display: inline-block;
+
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 .tab-item {
 	margin: 0;
 	padding: 0.8rem 0;
