@@ -11,9 +11,12 @@
   		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 		
 		<script src="scripts/angiesdelights.js"></script>
+		
+		<script src="scripts/w3.js"></script>
+		<script src="scripts/HTMLInclude.js"></script>
 	</head>
 <body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed>
-	<header>
+	<!-- <header>
 		<h1>Angie's Favorite Delightful Products</h1>
 			<img class="logo" src="images/angies_delights.png" width="250" height="250" alt="Angie's Delights Brand Logo">
 	</header>
@@ -27,7 +30,10 @@
 		<a href="https://webpages.uncc.edu/jmack23/itis3135/assignment/tos.html">Terms of Service</a> 
          ||
 		<a href="https://webpages.uncc.edu/jmack23/itis3135/assignment/favorite_products.html">Angie's Favorites</a> 
-	</nav>
+	</nav> -->
+	<h1>Angie's Favorite Delightful Products</h1>
+	<div class="myHeader" data-include="components/header.html"></div>
+	<div class="myNav" data-include="components/nav.html"></div>
 	<main>
 		<h2>Angie's Favorites</h2>
 		<!-- <img name="slide" class="products" width="250" height="250" alt="Favorite Products Slideshow"> -->
@@ -61,27 +67,27 @@
 		
 		<h2>Angie's Favorite Delightful Products</h2>
 		<!-- insert product image here -->
-		<img id="products" src="images/1.jpg" width="250" height="250" alt="Image1">
+		<img class="products" src="images/1.jpg" width="250" height="250" alt="Image1">
 		<p class="product-name">Delightful Cocoa Bombs</p>
 		<ul>
 			<li class="product-desc">Simply drop the Cocoa Bomb into a glass of hot milk and watch in amazement as the delightful cocoa bomb transforms your hot glass of milk into an extremely decadent glass of hot cocoa.</li>
 		</ul>
 
-		<img id="products" src="images/3.jpg" width="250" height="250" alt="Image3">
+		<img class="products" src="images/3.jpg" width="250" height="250" alt="Image3">
 		<!-- insert product image here -->
 		<p class="product-name">Gingerbread Man Cake</p>
 		<ul>
 			<li class="product-desc">Take a look at this delightfully aesthetic cake. This is the perfect product to chow down on during the holidays!</li>
 		</ul>
 
-		<img id="products" src="images/5.jpg" width="250" height="250" alt="Image5">
+		<img class="products" src="images/5.jpg" width="250" height="250" alt="Image5">
 		<!-- insert product image here -->
 		<p class="product-name">Pink Velvet Flamingo Cake</p>
 		<ul>
 			<li class="product-desc">The perfect cake to start the Summer. With pineapple and vanilla flavoring, this just might be the perfect surprise for any delightful Summer day!</li>
 		</ul>
 
-		<img id="products" src="images/7.jpg" width="250" height="250" alt="Image7">
+		<img class="products" src="images/7.jpg" width="250" height="250" alt="Image7">
 		<!-- insert product image here -->
 		<p class="product-name">Easter Bunny Cake</p>
 		<ul>
@@ -89,10 +95,13 @@
 		</ul>
 
 	</main>
-	<footer>
+	<!-- <footer>
 		<p><strong>Page built by Jacob Mack</strong></p>
 		<a href="https://validator.w3.org/check?uri=referer" class="btnReferHTML">HTML Referer</a>	
 		<a href="https://jigsaw.w3.org/css-validator/check/referer" class="btnReferCSS">CSS Referer</a>
-	</footer>
+	</footer> -->
+
+	<div class="myFooter" data-include="components/footer.html"></div>
+	<script>HTMLInclude();</script>
 </body>
 </html>

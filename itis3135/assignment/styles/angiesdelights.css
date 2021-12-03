@@ -112,7 +112,7 @@ div.slider
 }
 
 
-#products 
+.products 
 {
 	display: block;
 	margin-left: auto;
@@ -120,7 +120,7 @@ div.slider
 
 }
 
-#products:hover 
+.products:hover 
 {
 	position: relative;
 	top: -10px;
@@ -166,6 +166,7 @@ h1, h2, h3, h4
 	color: #850b78;
 	font-family: Cambria, Cochin, Georgia, serif, "Futura";
 	text-align: center;
+	
 }
 
 h3
