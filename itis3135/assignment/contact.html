@@ -10,6 +10,9 @@
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<script src="scripts/jquery.copy-to-clipboard.js"></script>
 		<script src="scripts/angiesdelightscontact.js"></script>
+
+		<script src="scripts/w3.js"></script>
+		<script src="scripts/HTMLInclude.js"></script>
 </head>
 <body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed>
 	<header>
@@ -44,10 +47,13 @@
 		
 		
 	</main>
-	<footer>
+	<!-- <footer>
 		<p><strong>Page built by Jacob Mack</strong></p>
 		<a href="https://validator.w3.org/check?uri=referer" class="btnReferHTML">HTML Referer</a>	
 		<a href="https://jigsaw.w3.org/css-validator/check/referer" class="btnReferCSS">CSS Referer</a>
-	</footer>
+	</footer> -->
+
+	<div class="myFooter" data-include="components/footer.html"></div>
+	<script>HTMLInclude();</script>
 </body>
 </html>
