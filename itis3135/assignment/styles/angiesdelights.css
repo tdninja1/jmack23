@@ -8,8 +8,10 @@ purple: #d0c1d6
 
 */
 #fav_products img {
-	margin: auto;
-	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
 	padding: 10px;
 }
 
