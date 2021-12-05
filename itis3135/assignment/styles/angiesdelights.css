@@ -34,6 +34,10 @@ purple: #d0c1d6
 	text-align: center;
 }
 
+#home {
+	text-align: center;
+}
+
 .products:hover
 {
 	position: relative;
