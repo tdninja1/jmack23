@@ -4,6 +4,47 @@
 2.) Image Slideshow
 3.) Random Item Picker from 10 listed items
 */
+//AJAX FAVORITE PRODUCTS
+
+/*
+{"favproducts":[
+	{
+		"image": "images/1.jpg",
+		"name": "Delightful Cocoa Bombs",
+		"description": "Simply drop the Cocoa Bomb into a glass of hot milk and watch in amazement as the delightful cocoa bomb transforms your hot glass of milk into an extremely decadent glass of hot cocoa.",
+	},
+*/
+$(document).ready(function() {
+    $.ajax({
+        type: "get",
+        url: "json_files/favProducts.json", //CHANGED FROM "xml" TO "json"
+        beforeSend: function() {
+            $("#faculty").html("Loading...");
+        },
+        timeout: 10000,
+        error: function(xhr, status, error) {
+            alert("Error: " + xhr.status + " - " + error);
+        },
+        dataType: "json", //CHANGED FROM "xml" TO "json"
+        success: function(data) {
+            $("#fav_products").html("");
+        
+            //JSON UNDER
+            $.each(data, function() {
+                $.each(this, function(key, value) {
+                    $('#faculty').append(
+                        "<img src=' " + value.image + " '> </img>" +
+                        '<h2>' + value.name + '</h2>' + 
+                        '<p>' + value.description + '</p>'
+                    );
+                });
+            });
+        }
+    });
+});
+
+
+
 //Image Slideshow works with bxSlider plugin - JQUERY PLUGIN
 $(document).ready(function(){
     $('.slider').bxSlider( {
