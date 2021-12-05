@@ -14,7 +14,7 @@ purple: #d0c1d6
 	top: -10px;
 	left: auto;
 	right: auto;
-	width: 400px;
+	width: auto;
 	height: auto;
 	display: block;
 	z-index: auto;
