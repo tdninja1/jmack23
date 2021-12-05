@@ -11,8 +11,12 @@ purple: #d0c1d6
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 35%;
+	width: 20%;
 	padding: 10px;
+}
+
+#fav_products h2 p {
+	text-align: center;
 }
 
 .products:hover
