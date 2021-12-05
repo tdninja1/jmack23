@@ -43,6 +43,33 @@ $(document).ready(function() {
     });
 });
 
+$(document).ready(function() {
+    $.ajax({
+        type: "get",
+        url: "json_files/home.json", //CHANGED FROM "xml" TO "json"
+        beforeSend: function() {
+            $("#home").html("Loading...");
+        },
+        timeout: 10000,
+        error: function(xhr, status, error) {
+            alert("Error: " + xhr.status + " - " + error);
+        },
+        dataType: "json", //CHANGED FROM "xml" TO "json"
+        success: function(data) {
+            $("#home").html("");
+        
+            //JSON UNDER
+            $.each(data, function() {
+                $.each(this, function(key, value) {
+                    $('#home').append(
+                        '<p>' + value.description + '</p>'
+                    );
+                });
+            });
+        }
+    });
+});
+
 
 //Image Slideshow works with bxSlider plugin - JQUERY PLUGIN
 $(document).ready(function(){
