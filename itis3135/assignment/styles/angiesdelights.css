@@ -8,7 +8,7 @@ purple: #d0c1d6
 
 */
 
-.products:hover, #fav_products
+.products:hover
 {
 	position: relative;
 	top: -10px;
@@ -38,8 +38,8 @@ purple: #d0c1d6
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 250px;
-	height: 250px;
+	width: 125px;
+	height: 125px;
 			
 }
 
