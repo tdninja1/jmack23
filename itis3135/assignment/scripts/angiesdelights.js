@@ -32,8 +32,8 @@ $(document).ready(function() {
             $.each(data, function() {
                 $.each(this, function(key, value) {
                     $('#fav_products').append(
-                        "<img src=' " + value.image + " '> </img>" +
-                     // "<img src=" + value.image + " alt=" + value.name + " > </img>" +
+                        // "<img src=' " + value.image + " '> </img>" +
+                     "<img src=" + value.image + " alt=" + value.name + " > </img>" +
                         '<h2>' + value.name + '</h2>' + 
                         '<p>' + value.description + '</p>'
                     );
