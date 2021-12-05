@@ -8,9 +8,9 @@ purple: #d0c1d6
 
 */
 #fav_products img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
+	width: 50%;
+	padding: 10px;
 }
 
 .products:hover
