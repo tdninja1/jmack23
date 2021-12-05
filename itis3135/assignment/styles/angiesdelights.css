@@ -7,6 +7,11 @@ purple pink: #d2b6cf
 purple: #d0c1d6
 
 */
+#fav_products img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .products:hover
 {
@@ -33,7 +38,7 @@ purple: #d0c1d6
 	padding-bottom: 5vh;
 }
 
-.logo, .products, #fav_products
+.logo, .products
 {
 	display: block;
 	margin-left: auto;
