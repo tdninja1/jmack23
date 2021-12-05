@@ -15,7 +15,7 @@ purple: #d0c1d6
 	left: auto;
 	right: auto;
 	width: auto;
-	height: auto;
+	height: 400;
 	display: block;
 	z-index: auto;
 
@@ -38,9 +38,6 @@ purple: #d0c1d6
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 125px;
-	height: 125px;
-			
 }
 
 [data-include]
