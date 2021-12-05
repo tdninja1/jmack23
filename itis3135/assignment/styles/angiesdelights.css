@@ -21,14 +21,16 @@ purple: #d0c1d6
 	left: auto;
 	right: auto;
 	width: auto;
-	height: 400;
+	height: 300;
 	display: block;
 	z-index: auto;
 }
 
+#fav_products h2 {
+	text-align: center;
+}
 
-
-#fav_products h2 p {
+#fav_products p {
 	text-align: center;
 }
 
