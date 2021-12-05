@@ -8,7 +8,7 @@ purple: #d0c1d6
 
 */
 
-.products:hover 
+.products:hover, #fav_products
 {
 	position: relative;
 	top: -10px;
@@ -33,7 +33,7 @@ purple: #d0c1d6
 	padding-bottom: 5vh;
 }
 
-.logo, .products
+.logo, .products, #fav_products
 {
 	display: block;
 	margin-left: auto;
