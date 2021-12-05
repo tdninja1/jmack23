@@ -33,7 +33,7 @@ $(document).ready(function() {
             $.each(data, function() {
                 $.each(this, function(key, value) {
                     $('#faculty').append(
-                        "<img src=' " + value.image + " '> </img>" +
+                        // "<img src=' " + value.image + " '> </img>" +
                         '<h2>' + value.name + '</h2>' + 
                         '<p>' + value.description + '</p>'
                     );
