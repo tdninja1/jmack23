@@ -162,18 +162,16 @@ div.slider
 #randomProduct 
 {
 	text-align: center;
-	padding-top: 5%;
+	padding-top: 2%;
 }
 
-.btnRandom 
+.btnRandomContainer 
 {
-	text-align: center;
-	padding-left: 15%;
-	padding-right: 15%;
-	
-	margin-left: 25%;
-	margin-right: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
 
 .btn, .btn-primary
 {
