@@ -38,6 +38,12 @@ purple: #d0c1d6
 	text-align: center;
 }
 
+.demo {
+	text-align: center;
+}
+
+
+
 .products:hover
 {
 	position: relative;
@@ -153,16 +159,29 @@ div.slider
 	width: 50%;
 }
 
-.btn 
+#randomProduct {
+	text-align: center;
+	padding-top: 5%;
+}
+
+.btn, .btn-primary, .btnRandom
 {
 	border: none;
 	outline: none;
 	background: #888;
-	padding: 10px 30px;
+
+	/*padding: 10px 30px;*/
+
 	font-size: 20px;
 	color: #ddd;
 	cursor: pointer;
-	margin: 10px auto;
+	/*margin: 10px auto;*/
+	padding-left: 15%;
+	padding-right: 15%;
+	
+
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
 body
