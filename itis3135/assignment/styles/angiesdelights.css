@@ -159,12 +159,23 @@ div.slider
 	width: 50%;
 }
 
-#randomProduct {
+#randomProduct 
+{
 	text-align: center;
 	padding-top: 5%;
 }
 
-.btn, .btn-primary, .btnRandom
+.btnRandom 
+{
+	text-align: center;
+	padding-left: 15%;
+	padding-right: 15%;
+	
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.btn, .btn-primary
 {
 	border: none;
 	outline: none;
