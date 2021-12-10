@@ -1,0 +1,24 @@
+{
+    "favproducts": [
+        {
+            "image": "images/1.jpg",
+            "name": "Delightful Cocoa Bombs",
+            "description": "Simply drop the Cocoa Bomb into a glass of hot milk and watch in amazement as the delightful cocoa bomb transforms your hot glass of milk into an extremely decadent glass of hot cocoa."
+        },
+        {
+            "image": "images/3.jpg",
+            "name": "Gingerbread Man Cake",
+            "description": "Take a look at this delightfully aesthetic cake. This is the perfect product to chow down on during the holidays!"
+        },
+        {
+            "image": "images/5.jpg",
+            "name": "Pink Velvet Flamingo Cake",
+            "description": "The perfect cake to start the Summer. With pineapple and vanilla flavoring, this just might be the perfect surprise for any delightful Summer day!"
+        },
+        {
+            "image": "images/7.jpg",
+            "name": "Easter Bunny Cake",
+            "description": "The perfect traditional Easter snack. Our delightful Easter Bunny Cake has any Easter occasion covered."
+        }
+    ]
+}
