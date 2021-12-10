@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Angie's Favorite Delightful Products</title>
+    	<link rel="stylesheet" href="styles/jquery-ui.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+		<link href="styles/angiesdelights.css" rel="stylesheet" type="text/css">
+  		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+		
+		<script src="scripts/angiesdelights.js"></script>
+		
+		<script src="scripts/w3.js"></script>
+		<script src="scripts/HTMLInclude.js"></script>
+	</head>
+<body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed>
+	<!-- <header>
+		<h1>Angie's Favorite Delightful Products</h1>
+			<img class="logo" src="images/angies_delights.png" width="250" height="250" alt="Angie's Delights Brand Logo">
+	</header>
+	<nav>
+		<a href="https://webpages.uncc.edu/jmack23/itis3135/assignment/index.html">Home</a>
+		 || 
+		<a href="https://webpages.uncc.edu/jmack23/itis3135/assignment/products.html">Products</a>
+		 ||
+		<a href="https://webpages.uncc.edu/jmack23/itis3135/assignment/contact.html">Contact</a>
+		 ||
+		<a href="https://webpages.uncc.edu/jmack23/itis3135/assignment/tos.html">Terms of Service</a> 
+         ||
+		<a href="https://webpages.uncc.edu/jmack23/itis3135/assignment/favorite_products.html">Angie's Favorites</a> 
+	</nav> -->
+	<h1>Angie's Favorite Delightful Products</h1>
+	<div class="myHeader" data-include="components/header.html"></div>
+	<div class="myNav" data-include="components/nav.html"></div>
+	<main>
+		<h2>Angie's Favorites</h2>
+		<!-- <img name="slide" class="products" width="250" height="250" alt="Favorite Products Slideshow"> -->
+
+		<!-- SlideShow Start -->
+		<div class="slider">
+			<!-- Image Start -->
+				<div class="slide">Delightful Cocoa Bombs
+						<img src="images/1.jpg" width="250" height="250" alt="Delightful Cocoa Bombs">
+				</div>
+
+				<div class="slide">Gingerbread Man Cake
+						<img src="images/3.jpg" width="250" height="250" alt="Gingerbread Man Cake">
+				</div>
+			
+				<div class="slide">Pink Velvet Flamingo Cake
+						<img src="images/5.jpg" width="250" height="250" alt="Pink Velvet Flamingo Cake">
+				</div>
+			
+				<div class="slide">Easter Bunny Cake
+						<img src="images/7.jpg" width="250" height="250" alt="Easter Bunny Cake">		
+				</div>
+			<!-- Image End -->
+		  </div>
+
+		<!-- SlideShow End -->
+		<p id="randomProduct"></p>
+		<div class="btnRandomContainer">
+				<button onclick="randomProduct()">Random Product Button</button>
+		</div>
+		
+		<h2>Angie's Favorite Delightful Products</h2>
+		<div id="fav_products"></div>
+
+	</main>
+	
+	<div class="myFooter" data-include="components/footer.html"></div>
+	<script>HTMLInclude();</script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+
+/* This is from - coolors.co45
+light pink: #F1e2e5
+pink: #f3d1df
+darker pink: #e3c1cf
+purple pink: #d2b6cf
+purple: #d0c1d6
+
+*/
+#fav_products img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	padding: 10px;
+}
+
+#fav_products img:hover {
+	position: relative;
+	top: -10px;
+	left: auto;
+	right: auto;
+	width: auto;
+	height: 300;
+	display: block;
+	z-index: auto;
+}
+
+#fav_products h2 {
+	text-align: center;
+}
+
+#fav_products p {
+	text-align: center;
+}
+
+#home {
+	text-align: center;
+}
+
+.demo {
+	text-align: center;
+}
+
+
+
+.products:hover
+{
+	position: relative;
+	top: -10px;
+	left: auto;
+	right: auto;
+	width: auto;
+	height: 600;
+	display: block;
+	z-index: auto;
+
+}
+
+.product-name 
+{
+	text-align: center;
+}
+
+
+.product-desc 
+{
+	text-align: center;
+	padding-bottom: 5vh;
+}
+
+.logo, .products
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+[data-include]
+{
+	min-height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+
+.myHeader, .myFooter
+{
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	
+
+}
+
+.myNav
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btnReferHTML, .btnReferCSS
+{
+	border: 2px solid black;
+	text-align: center;
+	padding: 10px 20px;
+	background-color: purple;
+	color: cyan;
+	display: inline-block;
+
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.tab-item {
+	margin: 0;
+	padding: 0.8rem 0;
+	cursor: pointer;
+	font-weight: normal;
+	
+}
+
+div.slider
+{
+	position: relative;
+	text-align: center;
+	color: purple;
+	text-emphasis-color: black;
+	
+}
+
+.slider
+{
+	margin: 2px auto;
+	width: 50%;
+}
+
+.bx-wrapper, .bx-window {
+    margin:0 auto; width:250px !important;
+	
+}
+
+.pager{
+	
+    width:250px !important; 
+}
+
+
+#slide_desc
+{
+	text-align: center;
+}
+
+.img-box img
+{
+	width: 50%;
+}
+
+#randomProduct 
+{
+	text-align: center;
+	padding-top: 4%;
+	
+}
+
+.btnRandomContainer 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 2%;
+}
+
+
+.btn, .btn-primary
+{
+	border: none;
+	outline: none;
+	background: #888;
+
+	/*padding: 10px 30px;*/
+
+	font-size: 20px;
+	color: #ddd;
+	cursor: pointer;
+	/*margin: 10px auto;*/
+	padding-left: 15%;
+	padding-right: 15%;
+	
+
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+body
+{
+	font-family: tahoma;
+	color: #850b78;
+	background-color: #F1e2e5;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+header, footer
+{
+	text-align: center;
+	color: #d2b6cf;
+	font-weight: bold;
+}
+
+p {
+	color: #850b78;
+	text-align: center;
+	font-family: Cambria, Cochin, Georgia, serif, "Futura";
+}
+
+h1, h2, h3
+{
+	color: #850b78;
+	font-family: Cambria, Cochin, Georgia, serif, "Futura";
+	text-align: center;
+	
+}
+
+h3
+{
+	font-size: 200%;
+	line-height: 0px;
+}
+
+h4 {
+	color: #850b78;
+	font-family:  Cambria, Cochin, Georgia, serif, "Futura";
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+tr:nth-child(even) {
+	background-color: gray;
+}
+
+tr:nth-child(odd) {
+	background-color: black;
+	
+}
+
+a
+{
+	text-decoration: none;
+	color: #850b78;
+	text-align: center;
+	font-family: Cambria;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+nav
+{
+	text-align: center;
+}
